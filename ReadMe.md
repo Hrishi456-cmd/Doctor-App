@@ -1,36 +1,66 @@
 
 
-## Employee Address
+## Doctor App
 
 * SpringBoot Java code using JAVA
 
 
 ## controller
 
-EmployeeController
+Admin Controller
 
-AddressController
+AppointmentController
+
+DoctorController
+
+PatientController
 
 
 ## service
 
-EmployeeService
+AdminService
 
-AddressService
+AppintmentService
+
+AuthenticationService
+
+DoctorApp
+
+PatientService
 
 
 ## repository
 
-IAddressRepo
+IAdminRepo
 
-IEmployeeRepo
+IAppointmentRepo
 
+IAuthTokenRepo
+
+IDoctorRepo
+
+IPAtientRepo
 
 ## model
 
-Address
+* dto
 
-Employee
+SignUp
+
+SignUpOutput
+
+* enum
+
+admin
+
+Appointment
+
+Authentication Token
+
+Doctor
+
+Patient
+
 
 
 
